@@ -16,3 +16,7 @@ import _ "github.com/jonot-cyber/pokerus"
 And then forget you installed it!
 
 Now I'm going to stop because git is giving me a headache
+
+## AGPL?
+
+I mean if we're talking about a virus, it only makes sense to use the most *viral* license. Get it?
