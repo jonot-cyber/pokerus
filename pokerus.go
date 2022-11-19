@@ -7,8 +7,8 @@ import (
 )
 
 func init() {
-    rand.Seed(time.Now().UnixNano())
-    if rand.Int() % 65_536 < 3 {
+    source := rand.NewSource(time.Now().UnixNano())
+    if rand.New(source).Int() % 65_536 < 3 {
         fmt.Println("Your gopher has pokérus!")
     }
 }
